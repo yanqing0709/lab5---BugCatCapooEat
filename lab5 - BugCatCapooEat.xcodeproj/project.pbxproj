@@ -14,6 +14,14 @@
 		87135328228542BF0005AEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87135326228542BF0005AEA8 /* LaunchScreen.storyboard */; };
 		87135333228542BF0005AEA8 /* lab5___BugCatCapooEatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87135332228542BF0005AEA8 /* lab5___BugCatCapooEatTests.swift */; };
 		8713533E228542BF0005AEA8 /* lab5___BugCatCapooEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8713533D228542BF0005AEA8 /* lab5___BugCatCapooEatUITests.swift */; };
+		8713534C228546A50005AEA8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8713534B228546A50005AEA8 /* Food.swift */; };
+		8713534E2285B3260005AEA8 /* BodyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8713534D2285B3260005AEA8 /* BodyItem.swift */; };
+		871353502285DC0A0005AEA8 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8713534F2285DC0A0005AEA8 /* Snake.swift */; };
+		87135352228682210005AEA8 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87135351228682210005AEA8 /* Direction.swift */; };
+		871353772289C2AB0005AEA8 /* ScreenTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871353762289C2AB0005AEA8 /* ScreenTop.swift */; };
+		871353792289C4C10005AEA8 /* gameRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871353782289C4C10005AEA8 /* gameRule.swift */; };
+		8713537B2289C68D0005AEA8 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8713537A2289C68D0005AEA8 /* Score.swift */; };
+		8713537D2289E9B10005AEA8 /* rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8713537C2289E9B10005AEA8 /* rice.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		87135339228542BF0005AEA8 /* lab5 - BugCatCapooEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lab5 - BugCatCapooEatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8713533D228542BF0005AEA8 /* lab5___BugCatCapooEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "lab5___BugCatCapooEatUITests.swift"; sourceTree = "<group>"; };
 		8713533F228542BF0005AEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8713534B228546A50005AEA8 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		8713534D2285B3260005AEA8 /* BodyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyItem.swift; sourceTree = "<group>"; };
+		8713534F2285DC0A0005AEA8 /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		87135351228682210005AEA8 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		871353762289C2AB0005AEA8 /* ScreenTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTop.swift; sourceTree = "<group>"; };
+		871353782289C4C10005AEA8 /* gameRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameRule.swift; sourceTree = "<group>"; };
+		8713537A2289C68D0005AEA8 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		8713537C2289E9B10005AEA8 /* rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rice.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,17 @@
 		8713531C228542BE0005AEA8 /* lab5 - BugCatCapooEat */ = {
 			isa = PBXGroup;
 			children = (
+				8713537C2289E9B10005AEA8 /* rice.png */,
+				87135351228682210005AEA8 /* Direction.swift */,
+				871353762289C2AB0005AEA8 /* ScreenTop.swift */,
 				8713531D228542BE0005AEA8 /* AppDelegate.swift */,
 				8713531F228542BE0005AEA8 /* ViewController.swift */,
 				87135321228542BE0005AEA8 /* Main.storyboard */,
+				8713537A2289C68D0005AEA8 /* Score.swift */,
+				871353782289C4C10005AEA8 /* gameRule.swift */,
+				8713534B228546A50005AEA8 /* Food.swift */,
+				8713534D2285B3260005AEA8 /* BodyItem.swift */,
+				8713534F2285DC0A0005AEA8 /* Snake.swift */,
 				87135324228542BF0005AEA8 /* Assets.xcassets */,
 				87135326228542BF0005AEA8 /* LaunchScreen.storyboard */,
 				87135329228542BF0005AEA8 /* Info.plist */,
@@ -231,6 +255,7 @@
 			files = (
 				87135328228542BF0005AEA8 /* LaunchScreen.storyboard in Resources */,
 				87135325228542BF0005AEA8 /* Assets.xcassets in Resources */,
+				8713537D2289E9B10005AEA8 /* rice.png in Resources */,
 				87135323228542BE0005AEA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871353772289C2AB0005AEA8 /* ScreenTop.swift in Sources */,
 				87135320228542BE0005AEA8 /* ViewController.swift in Sources */,
 				8713531E228542BE0005AEA8 /* AppDelegate.swift in Sources */,
+				871353792289C4C10005AEA8 /* gameRule.swift in Sources */,
+				871353502285DC0A0005AEA8 /* Snake.swift in Sources */,
+				8713534E2285B3260005AEA8 /* BodyItem.swift in Sources */,
+				8713534C228546A50005AEA8 /* Food.swift in Sources */,
+				8713537B2289C68D0005AEA8 /* Score.swift in Sources */,
+				87135352228682210005AEA8 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
